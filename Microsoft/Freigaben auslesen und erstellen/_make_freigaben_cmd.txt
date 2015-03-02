@@ -1,0 +1,3 @@
+@echo off 
+net share \\JENS-PC\C="C:\" /GRANT:"JENS-PC\admin",FULL CONTROL
+net share \\JENS-PC\Users="C:\Users" /GRANT:"VORDEFINIERT\Administratoren",FULL CONTROL /GRANT:"\Jeder",FULL CONTROL

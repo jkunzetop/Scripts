@@ -1,0 +1,6 @@
+@echo off 
+net share \\TERMINALS\temp2="C:\temp2" /GRANT:"\Jeder",READ /GRANT:"TECHNIK\jkunze",FULL CONTROL
+net share \\TERMINALS\temp5="C:\temp2" /GRANT:"\Jeder",READ /GRANT:"TECHNIK\jkunze",FULL CONTROL
+net share \\TERMINALS\test="C:\freigaben\test" /GRANT:"\Jeder",FULL CONTROL
+net share \\TERMINALS\test1="C:\freigaben\test1" /GRANT:"TECHNIK\jkunze",FULL CONTROL /GRANT:"TECHNIK\Technik",READ /GRANT:"TECHNIK\tuhlig",CHANGE
+net share \\TERMINALS\test3="C:\freigaben\test3" /GRANT:"\Jeder",FULL CONTROL
